@@ -11,7 +11,7 @@ Parameters:
   
   KeyName:
     Description: Name of an existing EC2 KeyPair to enable SSH access
-    Type: AWS::EC2::KeyPair::KeyName
+    Type: AWS::EC2::KeyPair::turingKey
     ConstraintDescription: Must be the name of an existing EC2 KeyPair
   
   SSHLocation:
@@ -38,7 +38,7 @@ Mappings:
   
   AWSRegionArch2AMI:
     us-east-1:
-      HVM64: ami-0c02fb55956c7d316
+      HVM64: ami-08982f1c5bf93d976
     us-west-2:
       HVM64: ami-0c02fb55956c7d316
     us-west-1:
